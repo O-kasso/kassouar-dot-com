@@ -1,0 +1,9 @@
+#header .content p {
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+#footer .copyright {
+  font-size: 0.7rem;
+  opacity: 1;
+}

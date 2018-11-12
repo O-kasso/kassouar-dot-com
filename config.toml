@@ -1,0 +1,98 @@
+baseurl = "http://kassouar.com"
+title = "Omar Kassouar"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[params]
+  description1 = '<!--[-->Software developer and restless autodidact.<!--]-->'
+  description2 = '<!--[-->Really good at breaking things; almost as good at fixing them.<!--]-->'
+  logo = "fa-fingerprint"
+
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/O-kasso"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://ca.linkedin.com/in/omarkassouar"
+
+[[params.social]]
+  medium = "keybase"
+  icon = "keybase"
+  link = "https://keybase.io/okasso"
+
+[[params.social]]
+  medium = "stack overflow"
+  icon = "stack-overflow"
+  link = "https://stackoverflow.com/users/6814861/o-kasso"
+
+[[params.social]]
+  medium = "hackerrank"
+  icon = "hackerrank"
+  link = "https://www.hackerrank.com/okasso"
+
+[[params.work]]
+  company = "Connected"
+  position = "Automation Developer"
+  logo = "/images/logo-connected-io.png"
+  link = "https://www.connected.io/"
+
+[[params.work]]
+  company = "Shopify"
+  position = "Software Developer Intern"
+  logo = "/images/logo-shopify.png"
+  link = "https://www.shopify.ca/"
+
+[[params.work]]
+  company = "VarageSale"
+  position = "QA Analyst"
+  logo = "/images/logo-varagesale.png"
+  link = "https://www.varagesale.com/"
+
+[[params.work]]
+  company = "VMC Game Labs"
+  position = "Compliance Test Specialist (TRC)"
+  logo = "/images/logo-vmc-game-labs.png"
+  link = "https://www.vmc.com/games/"
+
+[[params.skill]]
+  name = "Ruby"
+  icon = "devicon-ruby-plain colored"
+
+[[params.skill]]
+  name = "NodeJS"
+  icon = "devicon-nodejs-plain colored"
+
+[[params.skill]]
+  name = "Golang"
+  icon = "devicon-go-plain"
+
+[[params.skill]]
+  name = "Python"
+  icon = "devicon-python-plain colored"
+
+[[params.skill]]
+  name = "Swift"
+  icon = "devicon-swift-plain colored"
+
+[[params.skill]]
+  name = "SQL"
+  icon = "devicon-postgresql-plain colored"
+
+[[params.skill]]
+  name = "Unix/Linux"
+  icon = "devicon-linux-plain"
+
+[[params.skill]]
+  name = "Git"
+  icon = "devicon-git-plain colored"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1

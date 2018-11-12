@@ -1,0 +1,10 @@
+<ul class="work">
+{{ range .Site.Params.work }}
+	<li>
+    <img src="{{ .logo }}" class="image work-logo right">
+    <a href="{{ .link | safeURL }}" class="work-company">{{ .company }}</a>
+    <p class="work-position">{{ .position }}</p>
+  </li>
+  <br/>
+{{ end }}
+</ul>
