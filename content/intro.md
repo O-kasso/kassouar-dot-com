@@ -2,9 +2,10 @@
 title = "Intro"
 weight = 1
 draft = false
+
 +++
 
-Software tinkerer in **Toronto, ON** with a soft spot for test automation, continuous integration, developer tools, vim plugins, digital privacy, and Pokémon.
+I'm a software tinkerer in **Toronto, ON** with a soft spot for test automation, continuous integration, developer tools, vim keybindings, user experience, digital privacy, and Pokémon.
 
 Really good at breaking things, and almost as good at fixing them.
 On a mission to level‑up my skills, work on interesting problems, and [hack

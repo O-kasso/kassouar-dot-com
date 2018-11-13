@@ -497,6 +497,10 @@ input[type="radio"] + label:before {
   @media screen and (max-width: 480px) {
     .image.main {
       margin: 1.5rem 0; } }
+  .image.work-logo {
+    padding: 0;
+    max-width: 25%;
+  }
   .image.work-in-progress img {
     width: 50%;
     margin: 0 auto;
@@ -542,30 +546,40 @@ ul {
       margin: 0;
       padding: 0; }
   ul.skills {
-    padding: 1rem;
+    padding: 0;
     list-style: none;
     display: flex;
     align-items: center;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    flex-grow: 1
+   }
     ul.skills li {
       align-items: center;
-      padding: 1rem 2.5rem;
       text-align: center;
+      width: 25%;
       font-size: 1rem;}
       ul.skills li i {
         margin: 1.6rem;
         font-size: 2.8rem; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 736px) {
       ul.skills li {
-        align-items: center;
-        padding: 0.6rem 2.4rem;
+        width: 33%;
+        padding: 0.6rem 2.2rem;
         text-align: center;
-        font-size: 1rem;}
+        font-size: 0.9rem;}
         ul.skills li i {
           margin: 1rem;
           font-size: 2.4rem; }
     }
+    @media screen and (max-width: 480px) {
+      ul.skills li {
+        width: 50%;
+        font-size: 0.8rem;}
+      }
 
   ul.icons {
     cursor: default;
@@ -863,10 +877,10 @@ button {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  -moz-justify-content: space-between;
-  -webkit-justify-content: space-between;
-  -ms-justify-content: space-between;
-  justify-content: space-between;
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
   position: relative;
   min-height: 100vh;
   width: 100%;
@@ -1120,6 +1134,8 @@ button {
       -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
       transform: translateY(0);
+      max-height: 70vh;
+      overflow-y: auto;
       opacity: 1; }
     #main article .close {
       display: block;

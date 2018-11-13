@@ -11,7 +11,19 @@
 			<script src="/js/skel.min.js"></script>
 			<script src="/js/util.js"></script>
 			<script src="/js/main.js"></script>
-			{{ template "_internal/google_analytics_async.html" . }}
 
+      <!-- Quick hack for Contact form-->
+      <script>
+      $(document).ready(function($) {
+          $(function(){
+              if (window.location.search == "?sent") {
+                $('#contactform').hide();
+                $('#contactformsent').show();
+              } else {
+                $('#contactformsent').hide();
+              }
+          });
+      });
+      </script>
 	</body>
 </html>
