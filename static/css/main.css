@@ -563,8 +563,7 @@ ul {
       width: 25%;
       font-size: 1rem;}
       ul.skills li i {
-        margin: 1.6rem;
-        font-size: 2.8rem; }
+        font-size: 2.4rem; }
     @media screen and (max-width: 736px) {
       ul.skills li {
         width: 33%;
@@ -577,8 +576,7 @@ ul {
     }
     @media screen and (max-width: 480px) {
       ul.skills li {
-        width: 50%;
-        font-size: 0.8rem;}
+        width: 50%;}
       }
 
   ul.icons {
@@ -1122,7 +1120,7 @@ button {
     -webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
     -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
     transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-    padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+    padding: 2.5rem 2.5rem 1.5rem 2.5rem ;
     position: relative;
     width: 40rem;
     max-width: 100%;
@@ -1134,9 +1132,11 @@ button {
       -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
       transform: translateY(0);
-      max-height: 70vh;
-      overflow-y: auto;
       opacity: 1; }
+      #main article.active .article-content {
+        max-height: 70vh;
+        overflow-y: auto;
+      }
     #main article .close {
       display: block;
       position: absolute;
@@ -1171,7 +1171,7 @@ button {
         background-color: rgba(255, 255, 255, 0.175); }
   @media screen and (max-width: 736px) {
     #main article {
-      padding: 3.5rem 2rem 0.5rem 2rem ; }
+      padding: 2rem 2rem 0.5rem 2rem ; }
       #main article .close:before {
         top: 0.875rem;
         left: 0.875rem;
@@ -1180,7 +1180,7 @@ button {
         background-size: 14px 14px; } }
   @media screen and (max-width: 480px) {
     #main article {
-      padding: 3rem 1.5rem 0.5rem 1.5rem ; } }
+      padding: 2rem 1.5rem 0.5rem 1.5rem ; } }
 
 /* Footer */
 #footer {
