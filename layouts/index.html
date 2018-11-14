@@ -22,7 +22,7 @@
             </div>
             <nav>
               <ul>
-                {{ range where .Data.Pages.ByWeight "Params.hidden" "ne" "true" }}
+                {{ range where (where .Data.Pages.ByWeight "Params.shownav" "==" true) "Params.hidden" "!=" "true"  }}
 <li>{{ if isset .Params "link" }}<a href="{{ index .Params "link" }}"{{else}}<a href="#{{ .File.TranslationBaseName }}"{{end}}>{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}</a></li>
                 {{ end }}
               </ul>

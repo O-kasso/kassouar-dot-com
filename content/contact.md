@@ -2,6 +2,7 @@
 title = "Contact"
 weight = 6
 draft = false
+shownav = true
 +++
 
 <form id="contactform" action="#contactformsent" method="POST" netlify-honeypot="robo" netlify>
