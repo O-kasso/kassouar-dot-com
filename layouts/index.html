@@ -16,8 +16,9 @@
             <div class="content">
               <div class="inner">
                 <h1>{{ .Site.Title | safeHTML }}</h1>
-                <p>{{ .Site.Params.description1 | safeHTML }}</p>
-                <p>{{ .Site.Params.description2 | safeHTML }}</p>
+                {{ range .Site.Params.shortDescriptions }}
+                  <p>{{ . | safeHTML }}</p>
+                {{ end }}
               </div>
             </div>
             <nav>

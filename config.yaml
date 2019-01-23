@@ -1,0 +1,121 @@
+baseurl: 'http://kassouar.com'
+title: Omar Kassouar
+languageCode: en-us
+defaultContentLanguage: en
+enableRobotsTXT: true
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: false
+    privacyEnhanced: true
+disableKinds:
+  - RSS
+params:
+  logo: fa-fingerprint
+  shortDescriptions:
+    - Software developer and restless autodidact.
+    - Really good at breaking things; almost as good at fixing them.
+  longDescriptions:
+    - >-
+      Software developer in Toronto, ON with a soft spot for continuous delivery, developer-tooling, open-source, digital privacy, and vim bindings.
+    - >-
+      Really good at breaking things; almost as good at fixing them. On a mission to level‑up my skills and explore innovations that balance user-experience, business-value, and privacy/security. Restless autodidact with a passion for mentoring others.
+  social:
+    - medium: github
+      icon: github
+      link: 'https://github.com/O-kasso'
+    - medium: linkedin
+      icon: linkedin
+      link: 'https://ca.linkedin.com/in/okasso'
+    - medium: keybase
+      icon: keybase
+      link: 'https://keybase.io/okasso'
+    - medium: stack overflow
+      icon: stack-overflow
+      link: 'https://stackoverflow.com/users/6814861/o-kasso'
+    - medium: hackerrank
+      icon: hackerrank
+      link: 'https://www.hackerrank.com/okasso'
+  work:
+    - company: Connected
+      position: Automation Developer
+      logo: /images/logo-connected-io.png
+      link: 'https://www.connected.io/'
+      time: Oct 2017 - Present
+      description: Design, build, and maintain automated tooling (testing, deployment, utilities) as part of cross-project Integrity initiative serving multiple internal development teams.
+      descriptionList:
+        - iOS + Android automation framework for running end-to-end smoke tests on physical-devices (Ruby/Appium).
+        - Alexa-skill utterance validation framework for comparing NLP results between regional accents (NodeJS/Golang).
+        - ML-dataset preprocessing/assignment pipeline (PHP) and asset upload pipeline (Python).
+        - IT inventory management app (Swift/NodeJS).
+        - Coach traditionally waterfall teams to follow CI/CD best practices.
+        - Onboard and mentor co-op students with focus on maximizing their impact.
+    - company: Shopify
+      position: Software Developer Intern
+      logo: /images/logo-shopify.png
+      link: 'https://www.shopify.ca/'
+      time: Sep 2016 - Dec 2016
+      description: Full-stack development on Shipping team; implemented new features and bug fixes within admin settings UI; refactored and expanded coverage of unit and integration tests for Shipping microservice.
+    - company: VarageSale
+      position: QA Analyst
+      logo: /images/logo-varagesale.png
+      link: 'https://www.varagesale.com/'
+      time: Jun 2014 - Aug 2016
+      description: QA on Infrastructure Team, focused on Payments and Notifications systems; automated repetitive tasks and maintained staging deployment bot; verified user stories and defects across web, iOS, and Android; designed test cases for constantly iterating product; collaborated with stakeholders to identify concerns early in dev cycle.
+    - company: VMC Game Labs
+      position: Compliance Test Specialist (TRC)
+      logo: /images/logo-vmc-game-labs.png
+      link: 'https://www.vmc.com/games/'
+      time: Sep 2011 - Jul 2013
+      description: Verified client products against Sony's Technical Requirements Checklist in preperation for PlayStation QAAP submissions; consulted with client teams throughout dev cycle for early-detection and avoidance of potential violations; maintained complex test suites across multiple projects; participated in Sony's DevNet forum and VMC's internal TRC Hotline; on-site contracts for local clients.
+  skill:
+    - name: Ruby
+      icon: devicon-ruby-plain colored
+    - name: NodeJS
+      icon: devicon-nodejs-plain colored
+    - name: Golang
+      icon: devicon-go-plain
+    - name: Python
+      icon: devicon-python-plain colored
+    - name: PHP
+      icon: devicon-php-plain colored
+    - name: Swift
+      icon: devicon-swift-plain colored
+    - name: SQL
+      icon: devicon-postgresql-plain colored
+    - name: Unix/Linux
+      icon: devicon-linux-plain
+    - name: Git
+      icon: devicon-git-plain colored
+    - name: Shell
+      icon: devicon-vim-plain colored
+  school:
+    - name: nand2tetris
+      course: Build a Modern Computer from First Principles
+      year: '2017'
+      link: 'https://www.coursera.org/learn/build-a-computer'
+      logo: /images/logo-coursera.png
+    - name: edX Harvard
+      course: Computer Science CS50x
+      year: '2015'
+      link: >-
+        https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x
+      logo: /images/logo-cs50x.png
+    - name: Vanier College
+      course: Computer Science & Mathematics
+      year: '2010'
+      link: 'http://www.vaniercollege.qc.ca/csm/'
+      logo: /images/logo-vanier.jpg
+languages:
+  en:
+    languageName: English
+
