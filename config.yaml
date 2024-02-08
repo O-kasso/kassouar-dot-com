@@ -23,7 +23,7 @@ params:
   logo: fa-fingerprint
   shortDescriptions:
     - Passionate autodidact with a soft spot for developer experience, CI/CD, and privacy-by-design.
-    - My core values are craftsmanship, mentorship, creativity, and user-empathy. On a mission to further hone my craft while delivering optimal software that real humans actually enjoy using.
+    - On a mission to further hone my craft while delivering optimal software that real humans actually enjoy using.
   longDescriptions:
     - >-
       Passionate autodidact in the San Francisco Bay Area with a soft spot for developer experience, CI/CD, and privacy-by-design.
@@ -31,13 +31,13 @@ params:
       My core values are craftsmanship, mentorship, creativity, and user-empathy. On a mission to further hone my craft while delivering optimal software that real humans actually enjoy using. Over a decade of experience building systems that allow products to scale while continuously growing business value. Also interested in learning more about Augmented/Mixed Reality and LLMs. 
   social:
     - medium: linkedin
-      icon: linkedin
+      icon: "fa-brands fa-linkedin"
       link: 'https://linkedin.com/in/okasso'
     - medium: github
-      icon: github
+      icon: "fa-brands fa-github"
       link: 'https://github.com/O-kasso'
     - medium: email
-      icon: envelope
+      icon: "fa-regular fa-envelope"
       link: 'mailto:omar+websitecontact@kassouar.com'
   work:
     - company: Snap Inc
