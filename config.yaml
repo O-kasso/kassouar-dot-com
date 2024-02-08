@@ -1,4 +1,4 @@
-baseurl: 'http://kassouar.com'
+baseurl: 'https://kassouar.com'
 title: Omar Kassouar
 languageCode: en-us
 defaultContentLanguage: en
@@ -22,32 +22,38 @@ disableKinds:
 params:
   logo: fa-fingerprint
   shortDescriptions:
-    - Software developer and restless autodidact.
-    - Really good at breaking things; almost as good at fixing them.
+    - Passionate autodidact with a soft spot for developer experience, CI/CD, and privacy-by-design.
+    - My core values are craftsmanship, mentorship, creativity, and user-empathy. On a mission to further hone my craft while delivering optimal software that real humans actually enjoy using.
   longDescriptions:
     - >-
-      Software developer in Toronto, ON with a soft spot for continuous delivery, developer-tooling, open-source, digital privacy, and vim bindings.
+      Passionate autodidact in the San Francisco Bay Area with a soft spot for developer experience, CI/CD, and privacy-by-design.
     - >-
-      Really good at breaking things; almost as good at fixing them. On a mission to level‑up my skills and explore innovations that balance user-experience, business-value, and privacy/security. Restless autodidact with a passion for mentoring others.
+      My core values are craftsmanship, mentorship, creativity, and user-empathy. On a mission to further hone my craft while delivering optimal software that real humans actually enjoy using. Over a decade of experience building systems that allow products to scale while continuously growing business value. Also interested in learning more about Augmented/Mixed Reality and LLMs. 
   social:
+    - medium: linkedin
+      icon: linkedin
+      link: 'https://linkedin.com/in/okasso'
     - medium: github
       icon: github
       link: 'https://github.com/O-kasso'
-    - medium: linkedin
-      icon: linkedin
-      link: 'https://ca.linkedin.com/in/okasso'
-    - medium: keybase
-      icon: keybase
-      link: 'https://keybase.io/okasso'
-    - medium: stack overflow
-      icon: stack-overflow
-      link: 'https://stackoverflow.com/users/6814861/o-kasso'
-    - medium: hackerrank
-      icon: hackerrank
-      link: 'https://www.hackerrank.com/okasso'
+    - medium: email
+      icon: envelope
+      link: 'mailto:omar+websitecontact@kassouar.com'
   work:
+    - company: Snap Inc
+      position: Software Engineer, Developer Productivity
+      logo: /images/logo-snapchat.png
+      link: 'https://www.snap.com/'
+      time: May 2019 - Jan 2024
+      description: Developer Productivity + Mobile Release
+      descriptionList: 
+        - Designed and developed Golang/gRPC Mobile Release orchestration platform for Snap’s various iOS and Android products that organizes post-merge builds; manages pre-release checks for distribution to internal testing, external beta, and production submission release tracks; monitors and controls production staged rollouts based on internal metric funnels, and maintains fault-tolerant event schedules for different weekly-release milestones.
+        - Led effort to modernize and consolidate build scripting across Snap, migrating from bash scripts and deprecated Python2 to modern custom Python3 framework with metrics logging, dynamic error reporting, and modularity/composability.
+        - Collaborated with Builds team on redesigning mobile variant system for assembling custom build types and feature sets for different audiences, build graph optimizations and aggressive dependency caching to dramatically reduce compile times for both developer and CI machines. and aggressive dependency caching to dramatically reduce compile times for both developer and CI machines. Coordinated and performed iterative SDK upgrade rollouts and OS deprecations, aligning requirements across feature and ops teams.
+        - Owned mobile codesigning, managing storage and rotations of certificates, private keys, provisioning profiles, app IDs, and entitlements across several developer accounts. Refactored codesign build tooling to reduce risk and downtime of rotations. Collaborated with Security teams to maintain functionality of code obfuscation, binary integrity, and client attestation.
+        - Participated in Mobile Release Manager on-call rotation, performing production app submissions and hot fixes, managing policy changes and rejections, communicating with Apple / Google reps on behalf of Snap, and aggregating user-facing feature rollout plans for cross-team launch initiatives
     - company: Connected
-      position: Automation Developer
+      position: Software Developer, Automation
       logo: /images/logo-connected-io.png
       link: 'https://www.connected.io/'
       time: Oct 2017 - Present

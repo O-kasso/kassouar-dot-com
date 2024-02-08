@@ -5,10 +5,10 @@ draft = false
 shownav = true
 
 +++
+I'm a passionate autodidact in the **San Francisco Bay Area** with a soft spot for developer experience, CI/CD, and privacy-by-design. My core values are craftsmanship, mentorship, creativity, and user-empathy. 
 
-I'm a software tinkerer in **Toronto, ON** with a soft spot for continuous delivery, developer-tooling, open-source, digital privacy, and vim bindings.
+On a mission to further hone my craft while delivering optimal software that real humans actually enjoy using. Over a decade of experience building systems that allow products to scale while continuously growing business value. 
 
-Really good at breaking things, and almost as good at fixing them.
-On a mission to level‐up my skills and explore innovations that balance user-experience, business-value, and privacy/security.
+Also interested in learning more about Augmented/Mixed Reality and LLMs. 
 
 {{< readfile file="extra/quote.md" markdown="true" >}}
