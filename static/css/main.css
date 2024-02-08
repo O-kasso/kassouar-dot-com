@@ -498,7 +498,7 @@ input[type="radio"] + label:before {
     .image.main {
       margin: 1.5rem 0; } }
   .image.work-logo {
-    padding: 0;
+    padding: 0.25em 1.5em 2em;
     max-width: 25%;
   }
   .image.work-in-progress img {

@@ -1,5 +1,5 @@
 <ul class="icons">
 {{ range .Site.Params.social }}
-	<li><a href="{{ .link | safeURL }}" class="icon brand fab fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+	<li><a href="{{ .link | safeURL }}" class="icon {{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
 {{ end }}
 </ul>
