@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/* visionOS Design Tokens */
+@theme {
+  /* Glass Colors */
+  --color-glass-light: rgba(255, 255, 255, 0.15);
+  --color-glass-medium: rgba(255, 255, 255, 0.1);
+  --color-glass-dark: rgba(0, 0, 0, 0.2);
+  --color-glass-border: rgba(255, 255, 255, 0.2);
+  --color-glass-highlight: rgba(255, 255, 255, 0.25);
+
+  /* Foreground Colors */
+  --color-foreground: rgba(255, 255, 255, 0.95);
+  --color-foreground-secondary: rgba(255, 255, 255, 0.7);
+  --color-foreground-tertiary: rgba(255, 255, 255, 0.45);
+
+  /* Accent Colors */
+  --color-accent: #5ac8f5;
+  --color-accent-hover: #7dd5f8;
+
+  /* Layout Tokens */
+  --view-radius: 34px;
+  --view-radius-sm: 20px;
+  --view-radius-lg: 44px;
+  --content-max-width: 1200px;
+  --section-gap: 3rem;
+
+  /* Typography Scale (visionOS) */
+  --font-size-caption1: 0.6875rem;
+  --font-size-caption2: 0.75rem;
+  --font-size-footnote: 0.8125rem;
+  --font-size-subheadline: 0.9375rem;
+  --font-size-callout: 1rem;
+  --font-size-body: 1.0625rem;
+  --font-size-headline: 1.0625rem;
+  --font-size-title3: 1.25rem;
+  --font-size-title2: 1.375rem;
+  --font-size-title1: 1.75rem;
+  --font-size-largetitle: 2.125rem;
+  --font-size-xltitle1: 3rem;
+  --font-size-xltitle2: 3.5rem;
+
+  /* Animation Tokens */
+  --spring-bounce: 0.2;
+  --spring-duration: 0.6s;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Shadow Scale */
+  --shadow-glass:
+    inset 0 0.5px 0 0 rgba(255, 255, 255, 0.15),
+    inset 0 1px 2px 0 rgba(255, 255, 255, 0.08),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 4px 8px 0 rgba(0, 0, 0, 0.08),
+    0 12px 24px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+  background: #0a0a0a;
+  color: var(--color-foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Selection */
+::selection {
+  background: rgba(90, 200, 245, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* visionOS Custom Cursor */
+@media (hover: hover) and (pointer: fine) {
+  .cursor-none,
+  .cursor-none * {
+    cursor: none !important;
+  }
+}
